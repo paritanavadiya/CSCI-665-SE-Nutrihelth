@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-p+#b+he^6b(c^mimhs$$efmw@z*!0po^jk=gckit&=#y$epcg#'
+SECRET_KEY = '####'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -130,8 +130,8 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email Configurations
-EMAIL_HOST = 'in-v3.mailjet.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = 'c228c2df396150cc2491246cbd2b0bee'
-EMAIL_HOST_PASSWORD = 'e72c2324671fec4ea8031cbc31ff667a'
+EMAIL_HOST = '###'
+EMAIL_PORT = '###'
+EMAIL_HOST_USER = '###'
+EMAIL_HOST_PASSWORD = '####'
 EMAIL_USE_TLS = True
